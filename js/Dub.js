@@ -28,42 +28,34 @@ for (let i = 0; i < myRecords.length; i++) {
 
 
 
-
-AddToCart= (id)=>{
-
+AddToCart = (id) => {
   arrayOfCart.push(id);
   console.log(arrayOfCart);
-for (let i = 0; i < arrayOfCart.length; i++) {
-  for (let j = 0; j < myRecords.length; j++) {
-      if (arrayOfCart[i] == myRecords[j].id) {
-          
-       alert(`Your record has been added:${myRecords[j].description}`)
-        
-      }
-     
-  }
-  
-}
-
-};
-
-
-
-RemoveFromCart= (id)=>{ 
-for (let i = 0; i <  arrayOfCart.length; i++) {
-  if (id ==  arrayOfCart[i]) {
-    let itemIndex =  arrayOfCart.findIndex((ele) => id == ele )
-    console.log(itemIndex);
     for (let j = 0; j < myRecords.length; j++) {
-      if ( arrayOfCart[i] == myRecords[j].id) {
-        arrayOfCart.splice(itemIndex, 1 )
-        console.log(arrayOfCart);
-       alert(`Your record has been removed:${myRecords[j].description}`)
-
+      if (id == myRecords[j].id) {
+        alert(`Your record has been added:${myRecords[j].description}`)
       }
-  }
-  }
+    }
+};
 
-}
+
+
+RemoveFromCart = (id) => {
+  for (let i = 0; i < arrayOfCart.length; i++) {
+    if (id == arrayOfCart[i]) {
+      let itemIndex = arrayOfCart.findIndex((ele) => id == ele)
+      console.log(itemIndex);
+      for (let j = 0; j < myRecords.length; j++) {
+        if (arrayOfCart[i] == myRecords[j].id) {
+          arrayOfCart.splice(itemIndex, 1)
+          console.log(arrayOfCart);
+          alert(`Your record has been removed:${myRecords[j].description}`)
+
+        }
+      }
+    }
+
+  }
 
 };
+
