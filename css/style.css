@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(https://media.istockphoto.com/photos/retro-music-background-picture-id887280896?s=612x612);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mainTitle {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border: solid 3px;
+  box-shadow: black 10px;
+  text-align: center;
+  font-family: "Fredericka the Great", cursive;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  height: 8030px;
+  border: solid 3px;
+  box-shadow: black 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Fredericka the Great", cursive;
+}
+
+#secondHeader {
+  color: peru;
+}
+
+.categoryHeader {
+  background: url(https://cdn.pixabay.com/photo/2016/01/19/16/46/record-player-1149385__340.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  font-family: fantasy;
+  font-size: 400%;
+  color: black;
+}
+#categoryBox {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.categoryImage {
+  width: 24%;
+  height: 60%;
+  border: 4px double darkgoldenrod;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#categoryBox img {
+  border-radius: inherit;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.categoryImage h2 {
+  margin-top: 420px;
+  color: black;
+}
+
+#register {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+  background-color: white;
+  width: 100%;
+  height: fit-content;
+}
+
+#register h3 {
+  color: peru;
+  width: fit-content;
+  height: 6vh;
+  width: auto;
+  text-align: center;
+  font-family: fantasy;
+}
+#form {
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 6vh;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.cartTitle {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 426px) {
+  * {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  body {
+    width: fit-content;
+    height: fit-content;
+  }
+  .mainTitle {
+    width: 100%;
+  }
+  .recordCard {
+    width: fit-content;
+    height: fit-content;
+  }
+  .recordImage {
+    width: 100%;
+  }
+  .secondRecordImg {
+    width: 90%;
+  }
+  .container {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .categoryHeader {
+    font-size: 150%;
+  }
+  #categoryBox {
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+  }
+  .categoryImage {
+    width: 20%;
+    height: 40%;
+  }
+  .categoryImage h2 {
+    margin-top: 90px;
+    margin-right: 5px;
+    width: 15px;
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  #categoryBox {
+    height: 250px;
+  }
+  .categoryImage h2 {
+    margin-top: 150px;
+  }
+  .container {
+  
+    height: fit-content;
+  }
+ 
+}
+
