@@ -76,7 +76,9 @@ body {
 }
 .categoryImage h2 {
   /* margin-top: 420px; */
+  font-size: 25px;
   color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #register {
@@ -118,7 +120,7 @@ body {
 }
 
 .cartTitle {
-  color: white;
+  color: black;
   text-align: center;
 }
 
