@@ -14,7 +14,6 @@ for (let i = 0; i < myRecords.length; i++) {
         </article>
         <div class="recordBtn"> 
         <button class="button" onclick="AddToCart(${myRecords[i].id})"> Add To Cart </button>
-        <button class="button" onclick= "RemoveFromCart(${myRecords[i].id})"> Remove From Cart </button>
         </div>
         <hr>
         `;

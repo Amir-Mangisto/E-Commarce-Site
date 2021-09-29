@@ -75,7 +75,7 @@ body {
   height: 100%;
 }
 .categoryImage h2 {
-  /* margin-top: 420px; */
+  margin-top: 420px;
   font-size: 25px;
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -149,6 +149,9 @@ body {
     width: fit-content;
     height: fit-content;
   }
+  nav{
+    width: 100%;
+  }
   .mainTitle {
     width: 100%;
   }
@@ -180,7 +183,7 @@ body {
     height: 40%;
   }
   .categoryImage h2 {
-    margin-top: 90px;
+    margin-top: 100px;
     margin-right: 5px;
     width: 15px;
     font-size: 10px;
@@ -193,6 +196,9 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+  }
+  nav{
+    width: 100%;
   }
   #categoryBox {
     height: 250px;

@@ -7,14 +7,14 @@ for (let i = 0; i < myRecords.length; i++) {
     container.innerHTML += `<article class= "recordCard">
         <div class="recordDetails">
         <p>${myRecords[i].name}</p>
-        <p>${myRecords[i].price}</p>
+        <p>${myRecords[i].price}$</p>
         <p>${myRecords[i].description}</p>
         </div>
         <div class="recordImage"></div>
         </article>
         <div class="recordBtn"> 
         <button class="button" onclick="AddToCart(${myRecords[i].id})"> Add To Cart </button>
-        <button class="button" onclick= "RemoveFromCart(${myRecords[i].id})"> Remove From Cart </button>
+        
         </div>
         <hr>
         `;
